@@ -14,7 +14,7 @@ public class StringAssembler {
     }
 
     public StringAssembler append(String str) {
-        if (sb == null) {
+        if (sb == null) {  // have question
             sb = new StringBuilder(str);
         } else {
 
