@@ -51,4 +51,6 @@ public class SimpleStringGroup implements Iterable {
     public Iterator iterator() {
         return list.iterator() ;
     }
+
+
 }
